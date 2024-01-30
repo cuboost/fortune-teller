@@ -4,8 +4,8 @@ import datetime as dt
 import pygame
 
 pygame.mixer.init()
-pygame.mixer.music.load("Background_music.wav")
-pygame.mixer.music.play()
+pygame.mixer.music.load("music.wav")
+pygame.mixer.music.play(-1)
 
 print("\nI am the Fortune Teller, ask me yes or no questions")
 
